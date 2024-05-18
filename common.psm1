@@ -8,7 +8,7 @@ Import-Module PowerShellForGitHub
 function PrepareGitRepo() {
     git fetch
     git checkout dev
-    git pull
+    git pull --tags
 }
 
 function PrepareUserSettings() {
