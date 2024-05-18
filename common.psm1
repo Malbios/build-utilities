@@ -30,6 +30,10 @@ function GetNpmOnlineVersion($packageName) {
     return [System.Version]$onlineVersion
 }
 
+function GetRepoName() {
+    return Split-Path -Leaf (git rev-parse --show-toplevel)
+}
+
 function EnsureNewVersion($packageName) {
     PrepareGitRepo
 
