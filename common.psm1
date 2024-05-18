@@ -56,9 +56,7 @@ function EnsureNewVersion() {
 }
 
 function GetLatestTag() {
-    $latestTagInfo = (git for-each-ref --sort=creatordate --format '%(refname) %(creatordate)' refs/tags) | Select-Object -Last 1
-    
-    return $latestTagInfo.Split(' ')[0].Split('/')[2]
+    return ((git tag -l --sort=v:refname) | Select-Object -Last 1)
 }
 
 function PushNewTagTarget($tag, $newCommit) {
