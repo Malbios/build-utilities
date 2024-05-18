@@ -34,8 +34,10 @@ function GetRepoName() {
     return Split-Path -Leaf (git rev-parse --show-toplevel)
 }
 
-function EnsureNewVersion($packageName) {
+function EnsureNewVersion() {
     PrepareGitRepo
+
+    $packageName = GetRepoName
 
     $localVersion = GetLocalVersion
     $onlineVersion = GetNpmOnlineVersion $packageName
