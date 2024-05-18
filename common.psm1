@@ -113,5 +113,5 @@ function NewRelease($repo, $owner) {
         throw "Release could not be created!"
     }
 
-    Write-Host "placeholder"
+    return $release
 }
