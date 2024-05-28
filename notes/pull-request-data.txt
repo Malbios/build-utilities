@@ -1,11 +1,11 @@
-url                   : https://api.github.com/repos/Malbios/moo-client-ts/pulls/26
-id                    : 1876716982
-node_id               : PR_kwDOL3V4ks5v3G22
-html_url              : https://github.com/Malbios/moo-client-ts/pull/26
-diff_url              : https://github.com/Malbios/moo-client-ts/pull/26.diff
-patch_url             : https://github.com/Malbios/moo-client-ts/pull/26.patch
-issue_url             : https://api.github.com/repos/Malbios/moo-client-ts/issues/26
-number                : 26
+url                   : https://api.github.com/repos/Malbios/build-utilities/pulls/1
+id                    : 1892000878
+node_id               : PR_kwDOL9T_dc5wxaRu
+html_url              : https://github.com/Malbios/build-utilities/pull/1
+diff_url              : https://github.com/Malbios/build-utilities/pull/1.diff
+patch_url             : https://github.com/Malbios/build-utilities/pull/1.patch
+issue_url             : https://api.github.com/repos/Malbios/build-utilities/issues/1
+number                : 1
 state                 : open
 locked                : False
 title                 : dev to main
@@ -18,11 +18,11 @@ user                  : @{login=Malbios; id=38223677; node_id=MDQ6VXNlcjM4MjIzNj
                         subscriptions_url=https://api.github.com/users/Malbios/subscriptions;
                         organizations_url=https://api.github.com/users/Malbios/orgs; repos_url=https://api.github.com/users/Malbios/repos;
                         events_url=https://api.github.com/users/Malbios/events{/privacy};
-                        received_events_url=https://api.github.com/users/Malbios/received_events; type=User; site_admin=False; UserName=Malbios;      
+                        received_events_url=https://api.github.com/users/Malbios/received_events; type=User; site_admin=False; UserName=Malbios; 
                         UserId=38223677}
 body                  : 
-created_at            : 2024-05-18 11:48:04
-updated_at            : 2024-05-18 11:48:04
+created_at            : 2024-05-28 14:12:35
+updated_at            : 2024-05-28 14:12:35
 closed_at             : 
 merged_at             : 
 merge_commit_sha      : 
@@ -33,13 +33,13 @@ requested_teams       : {}
 labels                : {}
 milestone             : 
 draft                 : False
-commits_url           : https://api.github.com/repos/Malbios/moo-client-ts/pulls/26/commits
-review_comments_url   : https://api.github.com/repos/Malbios/moo-client-ts/pulls/26/comments
-review_comment_url    : https://api.github.com/repos/Malbios/moo-client-ts/pulls/comments{/number}
-comments_url          : https://api.github.com/repos/Malbios/moo-client-ts/issues/26/comments
-statuses_url          : https://api.github.com/repos/Malbios/moo-client-ts/statuses/6c957db42aa0776316cf65b081963950e68e0962
-head                  : @{label=Malbios:dev; ref=dev; sha=6c957db42aa0776316cf65b081963950e68e0962; user=; repo=}
-base                  : @{label=Malbios:main; ref=main; sha=ddf07e6928387efc63bf150251a9e3d932763a4f; user=; repo=}
+commits_url           : https://api.github.com/repos/Malbios/build-utilities/pulls/1/commits
+review_comments_url   : https://api.github.com/repos/Malbios/build-utilities/pulls/1/comments
+review_comment_url    : https://api.github.com/repos/Malbios/build-utilities/pulls/comments{/number}
+comments_url          : https://api.github.com/repos/Malbios/build-utilities/issues/1/comments
+statuses_url          : https://api.github.com/repos/Malbios/build-utilities/statuses/208a3c49c05d109b2e481aa19255e86b18cd9d18
+head                  : @{label=Malbios:dev; ref=dev; sha=208a3c49c05d109b2e481aa19255e86b18cd9d18; user=; repo=}
+base                  : @{label=Malbios:main; ref=main; sha=e49869bb053b64f41004659e562b8bbb5b86b20c; user=; repo=}
 _links                : @{self=; html=; issue=; comments=; review_comments=; review_comment=; commits=; statuses=}
 author_association    : OWNER
 auto_merge            : 
@@ -53,9 +53,9 @@ comments              : 0
 review_comments       : 0
 maintainer_can_modify : False
 commits               : 1
-additions             : 3
-deletions             : 1
+additions             : 7
+deletions             : 7
 changed_files         : 1
-RepositoryUrl         : https://github.com/Malbios/moo-client-ts
-PullRequestId         : 1876716982
-PullRequestNumber     : 26
+RepositoryUrl         : https://github.com/Malbios/build-utilities
+PullRequestId         : 1892000878
+PullRequestNumber     : 1
