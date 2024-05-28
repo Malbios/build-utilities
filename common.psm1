@@ -95,8 +95,6 @@ function NewPullRequestFromDevToMain($repo, $owner) {
         throw "Pull request could not be created!"
     }
 
-    $pullRequest
-
     gh pr merge $pullRequest.number --rebase --auto
 
     Write-Host "Url: $($pullRequest.html_url)"
