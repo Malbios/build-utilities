@@ -1,8 +1,3 @@
-$module = Get-Module -all PowerShellForGitHub
-if (!$module) {
-    Install-Module PowerShellForGitHub
-}
-
 Import-Module PowerShellForGitHub
 
 function PrepareGitRepo() {
@@ -94,15 +89,20 @@ function EnsureLatestVersionTagPointsToLatestCommit() {
 }
 
 function NewPullRequestFromDevToMain($repo, $owner) {
+    Write-Host "repo: $repo"
+    Write-Host "owner: $owner"
+
     $pullRequest = New-GitHubPullRequest -Uri "https://github.com/$($owner)/$($repo)" -Title "dev to main" -Head dev -Base main
 
     if (!$pullRequest) {
         throw "Pull request could not be created!"
     }
 
-    Write-Host "Url: $($pullRequest.url)"
+    $pullRequest
 
-    gh pr merge $pullRequest.number --rebase --auto
+    # Write-Host "Url: $($pullRequest.url)"
+
+    # gh pr merge $pullRequest.number --rebase --auto
 }
 
 function NewRelease($repo, $owner) {
